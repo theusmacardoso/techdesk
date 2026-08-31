@@ -1,5 +1,6 @@
 body {
-    background: black;
+    background: #17243A;
+    border-radius: 12px;
 }
 
 .ativo {
@@ -17,6 +18,7 @@ header {
     display: block;
     color:#F1F5F9;
     padding: 20px;
+    border-radius: 12px;
     background-color: #020814;
 }
 
@@ -77,4 +79,61 @@ h3 {
 p {
     font-size: xx-large;
      color:#F1F5F9;
+}
+
+.criarChamados {
+    flex-direction: row;
+    color: #F1F5F9;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #020814;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+
+form {
+    display: block;
+}
+
+button {
+    background: #1677FF;
+    color: #FFFFFF;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+select {
+    font-size: 25px;
+}
+
+#equip {
+    font-size: 25px;
+}
+
+.campoCondominio {
+    padding: 15px 5px;
+}
+
+.campoTipoChamado {
+    padding: 15px 5px;
+}
+
+.campoEquip {
+    padding: 15px 5px;
+}
+
+.campoPrioridade {
+    padding: 15px 5px;
+}
+
+.campoDescricao {
+    padding: 15px 5px;
+}
+
+.campoEnviar {
+    padding: 15px 5px;
 }

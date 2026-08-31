@@ -36,9 +36,64 @@
                         </ul>
                     </nav>
             </div>
-        </header>
+    </header>
     <main>
-        <h2>Teste Chamados</h2>
+        <div class="listaChamados">
+        <h2>Chamados em Geral</h2>
+            <ul>
+                <li>Chamado Condomínio 1 (Preventiva)</li>
+                <li>Chamado Condomínio 2 (Corretiva)</li>
+                <li>Chamado Condomínio 3 (Comodato)</li>
+            </ul>
+        </div>
+        <div class="criarChamados">
+            <h2>Novo chamado</h2>
+            <form>
+                <div class="campoCondominio">
+                    <label for="condominio">Condomínio: </label>
+                    <select id="condominio" name="condominio" required>
+                        <option value="cond1">Condomínio 1</option>
+                        <option value="cond2">Condomínio 2</option>
+                        <option value="cond3">Condomínio 3</option>
+                        <option value="cond4">Condomínio 4</option>
+                    </select>
+                </div>
+
+                <div class="campoTipoChamado">
+                    <label for="tipoChamado">Tipo de manutenção: </label>
+                    <select id="tipoChamado" name="tipoChamado" required>
+                        <option value="corretiva">Corretiva</option>
+                        <option value="preventiva">Preventina</option>
+                        <option value="aluguel">Aluguel de Equipamentos</option>
+                    </select>
+                </div>
+
+                <div class="campoEquip">
+                    <label for="equip">Tipo de Equipamento: </label>
+                    <input type="text" id="equip" name="equip" required>
+                </div>
+
+                <div class="campoPrioridade">
+                    <label for="prioridade">Prioridade: </label>
+                    <select id="prioridade" name="prioridade" required>
+                        <option value="baixa">Baixa</option>
+                        <option value="moderada">Moderada</option>
+                        <option value="alta">Alta</option>
+                        <option value="muitoAlta">Muito Alta</option>
+                    </select>
+                </div>
+
+                <div class="campoDescricao">
+                    <label for="descricao">Descrição: </label>
+                    <textarea id="descricao" name="descricao" required></textarea>
+                </div>
+
+                <div class="campoEnviar">
+                    <button type="submit">Enviar</button>
+                </div>
+            
+            </form>
+        </div>
     </main>
     <footer>
 
