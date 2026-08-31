@@ -1,0 +1,80 @@
+body {
+    background: black;
+}
+
+.ativo {
+    border-bottom: 5px solid #3B82F6;
+}
+
+.logoCab{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+}
+
+header {
+    display: block;
+    color:#F1F5F9;
+    padding: 20px;
+    background-color: #020814;
+}
+
+a {
+    color: #F1F5F9;
+    text-decoration: none;
+    
+}
+
+.navegacao {
+    width: fit-content;
+    padding: 2px 30px;
+    margin: 0 auto;
+    border-radius: 12px;
+    font-size: 25px;
+    display: block;
+    text-align: center;
+    background-color: #17243A;
+}
+
+
+.abasNavegacao {    
+    font-size: 30px;
+    list-style: none;
+    display: flex;
+    gap: 80px;   
+    justify-content: center;
+    align-items: center;
+
+}
+
+section {
+    height: auto;
+    width: auto;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:#F1F5F9;
+}
+
+.statusChamados {
+    padding: 20px;
+}
+
+h2 {
+    font-size: xx-large;
+    align-items: center;
+     color:#F1F5F9;
+}
+
+h3 {
+    font-size: xx-large;
+     color:#F1F5F9;
+}
+
+p {
+    font-size: xx-large;
+     color:#F1F5F9;
+}
